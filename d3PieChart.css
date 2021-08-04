@@ -1,0 +1,29 @@
+.arc text {
+    font: 10px sans-serif;
+    text-anchor: middle;
+}
+
+.d3PieChart .highlight {
+    stroke-width: 2.5 !important;
+    stroke: red !important;
+    border: solid 2.5px red !important;
+    /*fill: #4682B4 !important;*/
+    opacity: 1 !important;
+    transition: stroke 250ms;
+    transition: stroke-width 250ms;
+    transition: border 250ms;
+    transition: opacity 250ms;
+  }
+
+  .d3PieChart .text_highlight {
+    /*fill: #4682B4 !important;*/
+    opacity: 1 !important;
+    font-weight: bold;
+    stroke-width: 2.5 !important;
+  }
+  
+.d3PieChart .dim {
+    opacity: 0.4;
+    transition: opacity 250ms;
+}
+  
